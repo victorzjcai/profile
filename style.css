@@ -1,0 +1,107 @@
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.smallheader {
+  color: seagreen;
+}
+
+body {
+  background-color: #ffb5c2;
+}
+
+h1, h2, h3 {
+    font-family: 'Festive', sans-serif;
+    color: #ad1d71;
+}
+
+p {
+      font-family: 'Dancing Script', sans-serif;
+      font-size: 25px;
+
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 100%;
+  border: 1px solid lightgrey;
+}
+
+a {
+  color: #ad1d71;
+  text-decoration: none;
+  font-family: 'Festive', sans-serif;
+
+}
+
+a:hover {
+  color: #1dad9a;
+}
+
+.firstcard {
+    background-color: rgb(223, 142, 212);
+    padding: 15px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 50px;
+    margin: 30px 0px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstcard > p {
+   margin: 15px;
+}
+
+.secondcard {
+    background-color: #e36588;
+    padding: 15px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 50px;
+    margin: 30px 0px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list_inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list_inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.icon{
+  color: rgb(54, 5, 55);
+  font-size: 50px;
+}
